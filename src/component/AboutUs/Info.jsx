@@ -1,12 +1,13 @@
 import React from 'react'
-import ImgV from '/src/assets/Village.jpg'
+import { VillageImg } from '../../assets/image'
+
 
 export default function Info() {
     return (
         <div className='py-10 bg-gray-100'>
             <div className="hero  bg-gray-100">
                 <div className="hero-content flex-col lg:flex-row ">
-                    <img src={ImgV} className="w-[550px] rounded-lg shadow-4xl" />
+                    <img src={VillageImg} className="w-[550px] rounded-lg shadow-4xl" />
                     <div className='text-gray-700 font-bold'>
                         <h1 className="text-3xl py-5">Welcome to our Pema HomeStay !</h1>
                         <p>At Pema Homestay, we strive to authentic cultural experiences, warm hospitality, and comfortable accommodations await you. Immerse yourself in the
@@ -21,7 +22,7 @@ export default function Info() {
             </div>
             <div className="hero  bg-gray-100">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                <img src={ImgV} className="w-[550px] rounded-lg shadow-4xl" />
+                <img src={VillageImg} className="w-[550px] rounded-lg shadow-4xl" />
                     <div>
                         <div className='py-4 text-gray-600 font-bold'>
                         <p>Discover the essence of Nepal at our homestay in Chauri Deurali. With a backdrop of majestic mountains and lush valleys, our location provides

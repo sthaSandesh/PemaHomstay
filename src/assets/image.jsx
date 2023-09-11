@@ -6,6 +6,7 @@ import LogoTran from '/src/assets/logoTran.png'
 import CloudImg from '/src/assets/cloud.jpg'
 import viewImg from '/src/assets/view.jpeg'
 import BedImg from '/src/assets/BedImg.jpg'
+import VillageImg from '/src/assets/village.jpg'
 
 export{
     gardenImg, 
@@ -16,5 +17,6 @@ export{
     nighImg, 
     CloudImg,
     BedImg, 
+    VillageImg, 
 
 }
