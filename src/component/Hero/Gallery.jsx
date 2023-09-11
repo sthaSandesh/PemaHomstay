@@ -11,9 +11,9 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import { BedImg, CloudImg, viewImg } from '../../assets/image';
+import { BedImg, CloudImg, VillageImg, viewImg } from '../../assets/image';
 
-const galleries = new Array(3).fill([viewImg, CloudImg, BedImg]).flat();
+const galleries = new Array(3).fill([viewImg, CloudImg, BedImg , VillageImg]).flat();
 
 export default function Gallery() {
   return (
