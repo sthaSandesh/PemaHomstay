@@ -12,8 +12,8 @@ import ContactPage from "./pages/ContactPage"
 //npm install raviger
 const route = {
   '/'  : ()=> <HomePage />,
-  '/AboutUs'  : ()=> <AboutPage />,
-  '/Rooms' : ()=> <RoomPage />,
+  '/aboutus'  : ()=> <AboutPage />,
+  '/rooms' : ()=> <RoomPage />,
   '/facilities' : ()=> <FacilitiesPages />,
   '/contacts' : ()=> <ContactPage />,
   '*' : ()=> <NotFound />
