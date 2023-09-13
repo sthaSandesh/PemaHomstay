@@ -4,7 +4,7 @@ export default function AboutUs() {
   return (
     <div>
         <div>
-         <div className="hero min-h-screen bg-[url(/src/assets/Village.jpg)]">
+         <div className="hero min-h-screen bg-[url(/src/assets/cloud.jpg)]">
          <div className="hero-overlay bg-opacity-40"></div>
         <div className="hero-content text-center text-neutral-content">
           <div>
