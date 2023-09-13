@@ -1,11 +1,12 @@
 import React from 'react'
-import AboutUs from '../component/AboutUs/AboutUs'
+import About from '../component/AboutUs/About'
+
 import Info from '../component/AboutUs/Info'
 
 export default function AboutPage() {
   return (
     <div>
-       <AboutUs />
+       <About />
        <Info />
     </div>
   )
